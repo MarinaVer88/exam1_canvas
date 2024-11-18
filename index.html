@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="myCanvas" height="600px" width="800px"></canvas><br><br>
+    <input type="number" placeholder="x-point coordinate" id="xPoint">
+    <input type="number" placeholder="y-point coordinate" id="yPoint">
+    <input type="number" placeholder="rib-a" id="ribA">
+    <input type="number" placeholder="rib-b" id="ribB">
+    <button type="button" onclick="onCalculateClicked()">Calculate</button>
+    <button type="button" onclick="onClearClicked()">Clear</button>
+    <button type="button" onclick="onDrawClicked()">Draw</button>
+    <p id="paragraghSquareArea"></p>
+    <p id="paragraghError"></p>
+    <script src="main.js"></script>
+</body>
+
+</html>
